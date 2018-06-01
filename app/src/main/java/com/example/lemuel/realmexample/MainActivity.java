@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         ButterKnife.bind(this);
 
         //todo (4) Initialize Realm (just once per application)
-        Realm.init(this);
+
 
         //todo (5) Get a Realm instance for this thread
         Realm realm = Realm.getDefaultInstance();
